@@ -1,0 +1,24 @@
+{
+  "name": "webhooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index",
+    "start": "node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valianx/webhooks-github.git"
+  },
+  "author": "Valian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valianx/webhooks-github/issues"
+  },
+  "homepage": "https://github.com/valianx/webhooks-github#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
